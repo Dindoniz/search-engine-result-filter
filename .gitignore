@@ -1,0 +1,10 @@
+# Untrack all files and folders by default
+
+*
+
+# Exceptions to track specific files
+
+!search-engine-result-filter.user.js
+!README.md
+!LICENSE
+!.gitignore
