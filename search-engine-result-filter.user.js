@@ -23,7 +23,7 @@
     // Configuration: List of domains to block with wildcard support
     const BLOCKED_DOMAINS = [
         '*.example.com',
-        'www.example.org',
+        'www.example.org'
         // Add more domains here
     ];
 
